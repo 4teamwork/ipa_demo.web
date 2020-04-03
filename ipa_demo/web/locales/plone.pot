@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#. Default: "Eingereicht"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "Eingereicht"
+msgstr ""
+
+#. Default: "Entwurf"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "Entwurf"
+msgstr ""
+
+#. Default: "Veröffentlicht"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "Veröffentlicht"
+msgstr ""
+
+#. Default: "Internetbenutzer"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Anonymous"
+msgstr ""
+
+#. Default: "Autor"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Editor"
+msgstr ""
+
+#. Default: "System Administrator"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Manager"
+msgstr ""
+
+#. Default: "Gast"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Reader"
+msgstr ""
+
+#. Default: "Redaktor"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Reviewer"
+msgstr ""
+
+#. Default: "Verwalter"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--ROLE--Site Administrator"
+msgstr ""
+
+#. Default: "Eingereicht"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--STATUS--eingereicht"
+msgstr ""
+
+#. Default: "Entwurf"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--STATUS--entwurf"
+msgstr ""
+
+#. Default: "Veröffentlicht"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--STATUS--veroffentlicht"
+msgstr ""
+
+#. Default: "einreichen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--einreichen--entwurf_eingereicht"
+msgstr ""
+
+#. Default: "veröffentlichen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--veroffentlichen--eingereicht_veroffentlicht"
+msgstr ""
+
+#. Default: "veröffentlichen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--veroffentlichen--entwurf_veroffentlicht"
+msgstr ""
+
+#. Default: "zurückweisen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--zuruckweisen--eingereicht_entwurf"
+msgstr ""
+
+#. Default: "zurückziehen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--zuruckziehen--eingereicht_entwurf"
+msgstr ""
+
+#. Default: "zurückziehen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+msgid "demo_web_workflow--TRANSITION--zuruckziehen--veroffentlicht_entwurf"
+msgstr ""
+
+#. Default: "einreichen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "einreichen"
+msgstr ""
+
+#. Default: "Internetbenutzer"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Anonymous"
+msgstr ""
+
+#. Default: "Autor"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Editor"
+msgstr ""
+
+#. Default: "System Administrator"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Manager"
+msgstr ""
+
+#. Default: "Gast"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Reader"
+msgstr ""
+
+#. Default: "Redaktor"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Reviewer"
+msgstr ""
+
+#. Default: "Verwalter"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--ROLE--Site Administrator"
+msgstr ""
+
+#. Default: "Eingereicht"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--STATUS--eingereicht"
+msgstr ""
+
+#. Default: "Entwurf"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--STATUS--entwurf"
+msgstr ""
+
+#. Default: "Veröffentlicht"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--STATUS--veroffentlicht"
+msgstr ""
+
+#. Default: "einreichen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--einreichen--entwurf_eingereicht"
+msgstr ""
+
+#. Default: "veröffentlichen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--veroffentlichen--eingereicht_veroffentlicht"
+msgstr ""
+
+#. Default: "veröffentlichen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--veroffentlichen--entwurf_veroffentlicht"
+msgstr ""
+
+#. Default: "zurückweisen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--zuruckweisen--eingereicht_entwurf"
+msgstr ""
+
+#. Default: "zurückziehen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--zuruckziehen--eingereicht_entwurf"
+msgstr ""
+
+#. Default: "zurückziehen"
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "ipa_demo_web_workflow--TRANSITION--zuruckziehen--veroffentlicht_entwurf"
+msgstr ""
+
+#. Default: "veröffentlichen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "veröffentlichen"
+msgstr ""
+
+#. Default: "zurückweisen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "zurückweisen"
+msgstr ""
+
+#. Default: "zurückziehen"
+#: demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/demo_web_workflow/specification.txt
+#: ipa_demo/web/profiles/default/workflows/ipa_demo_web_workflow/specification.txt
+msgid "zurückziehen"
+msgstr ""

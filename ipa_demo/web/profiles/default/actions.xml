@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<object name="portal_actions" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+    <object name="user">
+
+        <object i18n:domain="ipa_demo.web" meta_type="CMF Action" name="editmode-switcher-enable">
+            <property i18n:translate="" name="title">Bearbeitungsmodus aktivieren</property>
+            <property i18n:translate="" name="description"/>
+            <property name="url_expr">string:${here/absolute_url}/switch-editmode</property>
+            <property name="icon_expr"/>
+            <property name="available_expr">python:here.portal_membership.checkPermission('Modify portal content', here) and here.restrictedTraverse('@@switch-editmode').get_state() == 'disabled'</property>
+            <property name="permissions">
+                <element value="View"/>
+            </property>
+            <property name="visible">True</property>
+        </object>
+
+        <object i18n:domain="ipa_demo.web" meta_type="CMF Action" name="editmode-switcher-disable">
+            <property i18n:translate="" name="title">Bearbeitungsmodus deaktivieren</property>
+            <property i18n:translate="" name="description"/>
+            <property name="url_expr">string:${here/absolute_url}/switch-editmode</property>
+            <property name="icon_expr"/>
+            <property name="available_expr">python:here.portal_membership.checkPermission('Modify portal content', here) and here.restrictedTraverse('@@switch-editmode').get_state() == 'enabled'</property>
+            <property name="permissions">
+                <element value="View"/>
+            </property>
+            <property name="visible">True</property>
+        </object>
+
+    </object>
+
+</object>

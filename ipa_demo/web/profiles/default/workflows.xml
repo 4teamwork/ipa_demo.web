@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_workflow" meta_type="Plone Workflow Tool">
+  <object name="ipa_demo_web_workflow" meta_type="Workflow"/>
+  <bindings>
+      <default>
+          <bound-workflow workflow_id="ipa_demo_web_workflow"/>
+      </default>
+  </bindings>
+</object>

@@ -1,0 +1,32 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-04-03 15:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: ./ipa_demo/web/profiles/default/actions.xml
+msgid "Bearbeitungsmodus aktivieren"
+msgstr ""
+
+#: ./ipa_demo/web/profiles/default/actions.xml
+msgid "Bearbeitungsmodus deaktivieren"
+msgstr ""
+
+#: ./ipa_demo/web/configure.zcml:24
+msgid "ipa_demo.web"
+msgstr ""
+
+#: ./ipa_demo/web/configure.zcml:42
+msgid "ipa_demo.web: DEVELOPMENT"
+msgstr ""
+

@@ -1,0 +1,19 @@
+.logo {
+  @include screen-small() {
+    margin-bottom: 0;
+  }
+
+  display: table;
+  margin-bottom: $margin-vertical;
+
+  #portal-logo {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@include portal-type-font-awesome-icon(easyform, check-square);
+
+#footer {
+  margin-top: 0;
+}

@@ -1,0 +1,8 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:lawgiver="http://namespaces.zope.org/lawgiver"
+    i18n_domain="ipa_demo.web">
+
+    <include package="ftw.lawgiver" file="meta.zcml" />
+
+</configure>

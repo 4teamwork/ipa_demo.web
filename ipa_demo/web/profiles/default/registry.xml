@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records interface="ftw.simplelayout.interfaces.ISimplelayoutDefaultSettings">
+    <value key="slconfig">{"layouts":[1,2,3,4]}</value>
+  </records>
+
+</registry>
