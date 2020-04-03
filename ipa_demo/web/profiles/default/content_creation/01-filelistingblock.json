@@ -1,0 +1,15 @@
+[
+    {
+        "_path": "linkchecker",
+        "_type": "ftw.simplelayout.ContentPage",
+        "title": "Linkchecker",
+        "_transitions": "demo_web_workflow--TRANSITION--veroffentlichen--eingereicht_veroffentlicht",
+        "_children": [
+            {
+                "_id": "reports",
+                "_type": "ftw.simplelayout.FileListingBlock",
+                "title": "Reports"
+            }
+        ]
+    }
+]
