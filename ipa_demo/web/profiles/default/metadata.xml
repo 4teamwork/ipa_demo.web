@@ -9,6 +9,7 @@
         <dependency>profile-ftw.upgrade:default</dependency>
         <dependency>profile-plone.app.caching:default</dependency>
         <dependency>profile-plone.app.caching:without-caching-proxy</dependency>
+        <dependency>profile-plone.restapi:default</dependency>
         <dependency>profile-plonetheme.blueberry.standard:default</dependency>
     </dependencies>
 </metadata>

@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:lawgiver="http://namespaces.zope.org/lawgiver"
+    i18n_domain="ipa-demo.web">
+
+    <include package="ftw.lawgiver" file="meta.zcml" />
+
+    <lawgiver:ignore
+        action_group="edit"
+        permissions="plone.restapi: Access Plone user information,
+                     plone.restapi: Access Plone vocabularies,
+                     plone.restapi: Use REST API"
+        />
+
+</configure>
