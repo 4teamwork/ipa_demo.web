@@ -4,6 +4,7 @@
         <dependency>profile-ftw.file:default</dependency>
         <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.lawgiver:default</dependency>
+        <dependency>profile-ftw.linkchecker:default</dependency>
         <dependency>profile-ftw.simplelayout.contenttypes:default</dependency>
         <dependency>profile-ftw.simplelayout.mapblock:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
