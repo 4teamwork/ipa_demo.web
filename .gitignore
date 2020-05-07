@@ -16,3 +16,5 @@
 /.nightly_password
 /README.html
 python3_venv
+venv37
+.linkchecker.log

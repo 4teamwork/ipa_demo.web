@@ -4,7 +4,7 @@ import requests
 
 
 HOST = 'localhost'
-PORT = '8080'
+PORT = '19801'
 PLATFORM = 'platform'
 
 URL_SCHEMA = 'http://{HOST}:{PORT}/{PLATFORM}/'.format(

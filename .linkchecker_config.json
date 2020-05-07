@@ -1,0 +1,8 @@
+{
+  "/platform": {
+    "email": ["matthias.osswald@4teamwork.ch"],
+    "base_uri": "https://ipa-demo.4teamwork.ch",
+    "timeout_config": "1",
+    "upload_location": "/platform/linkchecker/reports"
+  }
+}

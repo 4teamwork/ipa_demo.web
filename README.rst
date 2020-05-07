@@ -4,6 +4,15 @@ Webdemo
 The ``ipa_demo.web`` package contains a standard website for demo
 purposes and might be deployed to https://ipa_demo.4teamwork.ch/
 
+
+Notes for current installation
+------------------------------
+
+.. code:: bash
+
+    sudo -u zope bin/instance0 check_links /apps/98-plone-ipa-demo.4teamwork.ch/.linkchecker_config.json -l /apps/98-plone-ipa-demo.4teamwork.ch/.linkchecker.log -p 4
+
+
 .. contents:: Table of Contents
 
 Installation local development-environment
