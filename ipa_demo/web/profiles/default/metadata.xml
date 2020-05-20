@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
     <dependencies>
+        <dependency>profile-ftw.candlestick:default</dependency>
         <dependency>profile-ftw.file:default</dependency>
         <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.lawgiver:default</dependency>
